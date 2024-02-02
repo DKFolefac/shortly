@@ -9,7 +9,7 @@ pipeline {
         stage('build'){
             steps{
                 sh 'echo "building"'
-                sh 'npm install -g @angularcli'
+                // sh 'npm install -g @angularcli'
                 sh 'npm install'
                
                 
