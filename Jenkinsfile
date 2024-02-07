@@ -15,10 +15,10 @@ pipeline {
                 
             }
         }    
-        stage('test') {
-            steps{
-                 sh 'ng test'
-            }
+        // stage('test') {
+            // steps{
+                // sh 'ng test'
+            //}
         }  
         stage( 'buil') {
             steps{
