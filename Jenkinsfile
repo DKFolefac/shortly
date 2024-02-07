@@ -22,7 +22,7 @@ pipeline {
         //}  
         stage( 'buil') {
             steps{
-                sh 'ng build'
+                sh 'ng build --prod'
             }
         } 
         
